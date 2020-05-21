@@ -2,8 +2,8 @@ package claseAnimal;
 
 public abstract class Animal {
 	
-	private int age;
-	private String name;
+	public int age;
+	public String name;
 	
 	public Animal(String name, int age) {
 		super();

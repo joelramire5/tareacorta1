@@ -14,7 +14,7 @@ public class Main {
 		Kangaroo joey = new Kangaroo();
 		Swan cisne = new Swan();
 		Wolf alpha =new Wolf();
-		
+		Lion lionking = new Lion();
 		
 		System.out.println("overloading birds: ");
 		
@@ -43,7 +43,9 @@ public class Main {
 		
 		System.out.println("Abstract method ");
 		
-		cisne.getName();
+		lionking.roar();
+		lionking.getName();
+		
 		
 	}
 
