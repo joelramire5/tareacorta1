@@ -6,6 +6,21 @@ public class Main {
 		
 	System.out.println(new Canine().getAverageWeight());
 	System.out.println(new Wolf().getAverageWeight());
+
+	
+	
+	Kangaroo joey = new Kangaroo();
+	
+	joey.getKangarooDescription();
+	joey.getMarsupialDescription();
+	
+	Mouse mickey = new Mouse();
+	mickey.getRodentDetails();
+	mickey.getMouseDetails();
+	
 	}
 
+	
+	
+	
 }
