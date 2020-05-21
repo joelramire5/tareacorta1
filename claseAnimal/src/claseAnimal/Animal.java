@@ -1,6 +1,6 @@
 package claseAnimal;
 
-public class Animal {
+public abstract class Animal {
 	
 	private int age;
 	private String name;
@@ -10,5 +10,7 @@ public class Animal {
 		this.age = age;
 		this.name = name;
 	}
+	
+	public abstract String getName();
 
 }

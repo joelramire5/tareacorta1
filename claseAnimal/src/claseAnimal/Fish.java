@@ -9,7 +9,7 @@ public Fish(int age) {
 }
 
 public int getAge() {
-	return age;
+	return 5;
 	
 	
 }
